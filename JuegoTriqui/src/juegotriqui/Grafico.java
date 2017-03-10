@@ -10,7 +10,9 @@ package juegotriqui;
  * @author Estudiantes
  */
 public class Grafico extends javax.swing.JFrame {
-
+Tablero miTablero;
+int TurnoGrafico=0;
+int contador=0;
     /**
      * Creates new form Grafico
      */
@@ -38,6 +40,12 @@ public class Grafico extends javax.swing.JFrame {
         jTextField9 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jTextField1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField1MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -84,6 +92,15 @@ public class Grafico extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jTextField1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField1MouseClicked
+        if (TurnoGrafico<10){
+            miTablero.Turno=TurnoGrafico;
+            //miTablero.DefinirFicha(Turno);
+            //jTextField1.setText(miTablero.DefinirFicha(TurnoGrafico));
+        }
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1MouseClicked
 
     /**
      * @param args the command line arguments

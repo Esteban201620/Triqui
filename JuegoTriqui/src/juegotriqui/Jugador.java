@@ -12,7 +12,7 @@ package juegotriqui;
 public class Jugador {
     String Jugador1;
     String Jugador2;
-    
+    int Turno;
     
     public void PonerFicha(){
         
