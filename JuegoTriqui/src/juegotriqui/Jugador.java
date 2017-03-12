@@ -10,7 +10,7 @@ package juegotriqui;
  * @author Estudiantes
  */
 public class Jugador {
-    char Jugador1;
+    char Jugador;
     char Jugador2;
     int miTurno=0;
     Grafico turnoGrafico;
@@ -18,14 +18,17 @@ public class Jugador {
         turnoGrafico.Turno=miTurno;
     }
     Tablero mificha;
-    public void Jugar(){
+    public char Jugar(){
         if (miTurno%2==0 && miTurno<10){
-            mificha.FichaXO=Jugador1;
+            Jugador=mificha.FichaXO;
+            return Jugador;
         }else{
             if (miTurno%2!=0 && miTurno<10){
-                mificha.FichaXO=Jugador2;
+                Jugador=mificha.FichaXO;
+                return Jugador;
            }   
-        }  
+        }
+        return ' ';
     }
 }
 

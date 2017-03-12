@@ -95,7 +95,7 @@ String texto;
     }// </editor-fold>//GEN-END:initComponents
 
     private void cuadro1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_cuadro1MouseClicked
-            texto=(jugadorGrafico.Jugar());
+            texto=jugadorGrafico.Jugar();
             cuadro1.setText(texto);
             Turno++;
             //miTablero.DefinirFicha(Turno);
