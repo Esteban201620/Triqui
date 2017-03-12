@@ -10,11 +10,19 @@ package juegotriqui;
  * @author Estudiantes
  */
 public class Jugador {
-    String Jugador1;
-    String Jugador2;
-    int Turno;
-    
-    public void PonerFicha(){
-        
+    char Jugador1;
+    char Jugador2;
+    int miTurno=0;
+    Tablero mitablero;
+    Tablero mificha;
+    public void Jugar(){
+        if (miTurno%2==0 && miTurno<10){
+            mificha.FichaO=Jugador1;
+        }else{
+            if (miTurno%2!=0 && miTurno<10){
+                mificha.FichaX=Jugador2;
+           }   
+        }  
     }
 }
+

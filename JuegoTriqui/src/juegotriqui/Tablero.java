@@ -10,19 +10,23 @@ package juegotriqui;
  * @author Estudiantes
  */
 public class Tablero {
-    char Ficha;
-    int Turno=0;
-    public char DefinirFicha(){
-        if (Turno%2==0 && Turno<10){
-            Ficha='O';
-            Turno ++;
+    //int Turno=0;
+    int miTurno=0;
+    char FichaO;
+    char FichaX;
+    //Jugador miJugador1, miJugador2;
+    char Fichas[]= new char[9];
+    /*public void Definirturno(){
+      *  miJugador.miTurno=Turno;
+    }*/
+    public void DefinirFicha(){
+        if (miTurno%2==0 && miTurno<10){
+            FichaO=Fichas[miTurno]='O';
         }else{
-            if (Turno%2!=0) {
-            } else {
-                Ficha='X';
-                Turno ++;
+            if (miTurno%2!=0 && miTurno<10) {
+                FichaX=Fichas[miTurno]='X';
+                
             }
         }
-       return Ficha;
     }   
 }

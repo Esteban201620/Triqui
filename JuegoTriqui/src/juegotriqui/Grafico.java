@@ -11,8 +11,7 @@ package juegotriqui;
  */
 public class Grafico extends javax.swing.JFrame {
 Tablero miTablero;
-int TurnoGrafico=0;
-int contador=0;
+int Turno=0;
     /**
      * Creates new form Grafico
      */
@@ -94,11 +93,10 @@ int contador=0;
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTextField1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField1MouseClicked
-        if (TurnoGrafico<10){
-            miTablero.Turno=TurnoGrafico;
+
             //miTablero.DefinirFicha(Turno);
             //jTextField1.setText(miTablero.DefinirFicha(TurnoGrafico));
-        }
+       
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1MouseClicked
 
