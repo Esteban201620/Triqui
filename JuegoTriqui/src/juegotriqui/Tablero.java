@@ -11,14 +11,16 @@ package juegotriqui;
  */
 public class Tablero {
     char Ficha;
-    int Turno;
-    public char DefinirFicha(int Turno){
-        if (Turno%2==0){
+    int Turno=0;
+    public char DefinirFicha(){
+        if (Turno%2==0 && Turno<10){
             Ficha='O';
+            Turno ++;
         }else{
-            if (Turno%2==0) {
+            if (Turno%2!=0) {
             } else {
                 Ficha='X';
+                Turno ++;
             }
         }
        return Ficha;
