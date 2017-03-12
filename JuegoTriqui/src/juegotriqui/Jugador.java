@@ -13,14 +13,17 @@ public class Jugador {
     char Jugador1;
     char Jugador2;
     int miTurno=0;
-    Tablero mitablero;
+    Grafico turnoGrafico;
+    void Turno(){
+        turnoGrafico.Turno=miTurno;
+    }
     Tablero mificha;
     public void Jugar(){
         if (miTurno%2==0 && miTurno<10){
-            mificha.FichaO=Jugador1;
+            mificha.FichaXO=Jugador1;
         }else{
             if (miTurno%2!=0 && miTurno<10){
-                mificha.FichaX=Jugador2;
+                mificha.FichaXO=Jugador2;
            }   
         }  
     }

@@ -11,9 +11,13 @@ package juegotriqui;
  */
 public class Tablero {
     //int Turno=0;
+    //char FichaO;
+    char FichaXO;
+    Grafico turnoGráfico;
     int miTurno=0;
-    char FichaO;
-    char FichaX;
+    void Turno(){
+        turnoGráfico.Turno=miTurno;
+    }
     //Jugador miJugador1, miJugador2;
     char Fichas[]= new char[9];
     /*public void Definirturno(){
@@ -21,10 +25,10 @@ public class Tablero {
     }*/
     public void DefinirFicha(){
         if (miTurno%2==0 && miTurno<10){
-            FichaO=Fichas[miTurno]='O';
+            FichaXO=Fichas[miTurno]='O';
         }else{
             if (miTurno%2!=0 && miTurno<10) {
-                FichaX=Fichas[miTurno]='X';
+                FichaXO=Fichas[miTurno]='X';
                 
             }
         }

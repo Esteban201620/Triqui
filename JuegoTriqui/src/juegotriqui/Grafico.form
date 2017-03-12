@@ -26,21 +26,21 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jTextField7" pref="60" max="32767" attributes="0"/>
-                  <Component id="jTextField4" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jTextField1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cuadro7" pref="60" max="32767" attributes="0"/>
+                  <Component id="cuadro4" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cuadro1" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="60" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jTextField8" pref="60" max="32767" attributes="0"/>
-                  <Component id="jTextField5" max="32767" attributes="0"/>
-                  <Component id="jTextField2" max="32767" attributes="0"/>
+                  <Component id="cuadro8" pref="60" max="32767" attributes="0"/>
+                  <Component id="cuadro5" max="32767" attributes="0"/>
+                  <Component id="cuadro2" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jTextField3" pref="56" max="32767" attributes="0"/>
-                  <Component id="jTextField9" max="32767" attributes="0"/>
-                  <Component id="jTextField6" max="32767" attributes="0"/>
+                  <Component id="cuadro3" pref="56" max="32767" attributes="0"/>
+                  <Component id="cuadro9" max="32767" attributes="0"/>
+                  <Component id="cuadro6" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
           </Group>
@@ -51,21 +51,21 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextField1" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
-                  <Component id="jTextField2" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
-                  <Component id="jTextField3" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
+                  <Component id="cuadro1" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
+                  <Component id="cuadro2" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
+                  <Component id="cuadro3" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextField4" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
-                  <Component id="jTextField5" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
-                  <Component id="jTextField6" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="cuadro4" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="cuadro5" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="cuadro6" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="38" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Component id="jTextField7" alignment="1" min="-2" pref="59" max="-2" attributes="0"/>
-                  <Component id="jTextField9" alignment="1" max="32767" attributes="0"/>
-                  <Component id="jTextField8" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cuadro7" alignment="1" min="-2" pref="59" max="-2" attributes="0"/>
+                  <Component id="cuadro9" alignment="1" max="32767" attributes="0"/>
+                  <Component id="cuadro8" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
           </Group>
@@ -73,26 +73,26 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JTextField" name="jTextField1">
+    <Component class="javax.swing.JTextField" name="cuadro1">
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextField1MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="cuadro1MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField2">
+    <Component class="javax.swing.JTextField" name="cuadro2">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField3">
+    <Component class="javax.swing.JTextField" name="cuadro3">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField4">
+    <Component class="javax.swing.JTextField" name="cuadro4">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField5">
+    <Component class="javax.swing.JTextField" name="cuadro5">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField6">
+    <Component class="javax.swing.JTextField" name="cuadro6">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField7">
+    <Component class="javax.swing.JTextField" name="cuadro7">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField8">
+    <Component class="javax.swing.JTextField" name="cuadro8">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField9">
+    <Component class="javax.swing.JTextField" name="cuadro9">
     </Component>
   </SubComponents>
 </Form>

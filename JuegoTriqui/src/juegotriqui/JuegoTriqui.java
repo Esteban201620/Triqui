@@ -17,6 +17,12 @@ public class JuegoTriqui {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        
+        
+        
+        
+        Grafico miGrafica = new Grafico();
+        miGrafica.setVisible(true);
     }
     
 }
