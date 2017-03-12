@@ -11,7 +11,9 @@ package juegotriqui;
  */
 public class Grafico extends javax.swing.JFrame {
 Tablero miTablero;
+Jugador jugadorGrafico;
 int Turno=0;
+String texto;
     /**
      * Creates new form Grafico
      */
@@ -93,7 +95,9 @@ int Turno=0;
     }// </editor-fold>//GEN-END:initComponents
 
     private void cuadro1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_cuadro1MouseClicked
-            
+            texto=(jugadorGrafico.Jugar());
+            cuadro1.setText(texto);
+            Turno++;
             //miTablero.DefinirFicha(Turno);
             //jTextField1.setText(miTablero.DefinirFicha(TurnoGrafico));
        
